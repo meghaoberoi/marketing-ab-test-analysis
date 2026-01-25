@@ -26,10 +26,8 @@ Statistical analysis of a marketing campaign A/B test to determine effectiveness
 
 ## Project Structure
 ```
-├── data/
-│   └── marketing_AB.csv          # Dataset
-├── notebooks/
-│   └── Marketing_AB_Testing.ipynb # Full analysis
+├── marketing_AB.csv              # Dataset
+├── Marketing_AB_Testing.ipynb    # Full analysis
 └── README.md                      # Project documentation
 ```
 
