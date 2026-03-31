@@ -8,11 +8,11 @@ Statistical analysis of a marketing campaign A/B test to determine effectiveness
 - **Objective:** Determine if ads significantly improve conversion rates
 
 ## Key Findings
-- **Ad group conversion rate:** 2.55%
-- **Control group conversion rate:** 1.79%
-- **Relative lift:** 43% improvement
-- **Statistical significance:** p < 0.001 (highly significant)
-- **Recommendation:** Run the ad campaign
+- **Overall lift:** 43% relative improvement in conversion rate (p < 0.001)
+- **Simpson's Paradox:** Aggregate lift is misleading — when segmented by ad exposure level, only high-exposure users show a significant positive lift (55.4%, p < 0.001). Low and medium exposure users show negative or negligible lift (not statistically significant)
+- **Early morning compliers:** Users whose ad exposure was concentrated in early morning hours (12am–6am) show near-zero organic conversion rates in the PSA group, making them perfect compliers — the ad is doing real causal work in these hours
+- **Time-of-day pattern:** Conversion rates follow an inverted U shape, peaking at mid-afternoon (~3–4pm) for both groups
+- **Recommendation:** Maximize ad frequency and concentrate delivery in early morning hours for strongest causal impact
 
 ## Methodology
 - Chi-square test for statistical significance
@@ -26,15 +26,9 @@ Statistical analysis of a marketing campaign A/B test to determine effectiveness
 
 ## Project Structure
 ```
-<<<<<<< HEAD
-├── data/
-│   └── marketing_AB.csv          # Dataset
-├── notebooks/
-│   └── Marketing_AB_Testing.ipynb # Full analysis
-=======
+
 ├── marketing_AB.csv              # Dataset
-├── Marketing_AB_Testing.ipynb    # Full analysis
->>>>>>> c743819a222be3f01db01395c9eb35ce9bb22a54
+├─Marketing_AB_Testing.ipynb    # Full analysis
 └── README.md                      # Project documentation
 ```
 
