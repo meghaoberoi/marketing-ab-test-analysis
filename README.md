@@ -31,7 +31,7 @@ Statistical analysis of a marketing campaign A/B test to determine the effective
 ## Tools & Technologies
 - **Python:** pandas, NumPy, scipy, matplotlib, seaborn
 - **Statistical Methods:** Chi-square hypothesis testing, effect size analysis, causal inference (complier analysis)
-- **Visualization:** matplotlib, seaborn — bar charts, line plots, segmented subplots
+- **Visualization:** matplotlib, seaborn - bar charts, line plots, segmented subplots
 
 ## Project Structure
 ```
