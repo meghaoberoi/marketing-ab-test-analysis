@@ -23,9 +23,9 @@ Statistical analysis of a marketing campaign A/B test to determine the effective
 - Complier analysis using PSA group as counterfactual for causal inference
 
 ## Recommendations
-1. **Minimum frequency threshold:** Set a minimum ad exposure level before counting a user as treated — low and medium exposure users show no significant lift
+1. **Minimum frequency threshold:** Set a minimum ad exposure level before counting a user as treated - low and medium exposure users show no significant lift
 2. **Target early morning hours:** Ads are most causally effective between 12am–6am when organic intent is lowest
-3. **Maximize frequency for high-exposure users:** The lift is only significant and positive for high-exposure users — concentrate budget here
+3. **Maximize frequency for high-exposure users:** The lift is only significant and positive for high-exposure users - concentrate budget here
 4. **Always segment results:** Reporting only aggregate lift overstates campaign effectiveness
 
 ## Tools & Technologies
